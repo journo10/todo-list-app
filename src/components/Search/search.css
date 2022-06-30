@@ -16,4 +16,10 @@
      border-radius: 3px;
  }
 
+ /* Responsive */
+@media screen and (max-width:768px) {
+    .todo-search .todo-search-input {
+        width: 86%;
+    }
+}
 

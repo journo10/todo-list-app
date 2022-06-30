@@ -59,3 +59,15 @@
     color: #23272b;
     cursor: pointer;
 }
+
+/* Responsive */
+@media screen and (max-width:768px) {
+    .container .todo-form {
+        width: 35rem;
+    }
+
+    .container .todo-form .todo-input:focus {
+        background-color: #fff;
+        color: #000000;
+    }
+}
