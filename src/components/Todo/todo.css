@@ -8,12 +8,16 @@
     justify-content: center;
     margin-top: 5rem;
     flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .container .todo-form {
     width: 50rem;
     height: 3.75rem;
     text-align: center;
+    margin: 3rem;
 }
 
 .container .todo-form .todo-input {
@@ -28,7 +32,7 @@
 }
 
 .container .todo-form .todo-input:focus {
-    background-color:#5a6268;
+    background-color: #5a6268;
     color: #fff;
 }
 
@@ -39,7 +43,7 @@
     font-size: 1.5rem;
     border: none;
     border-radius: 5px;
-    background-color:#138496;
+    background-color: #138496;
     color: #fff;
     cursor: pointer;
 }
@@ -51,7 +55,7 @@
     font-size: 1.5rem;
     border: none;
     border-radius: 5px;
-    background-color:#e0a800;
+    background-color: #e0a800;
     color: #23272b;
     cursor: pointer;
 }

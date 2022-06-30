@@ -2,11 +2,13 @@ import React, { useEffect, useState } from "react";
 import { nanoid } from "nanoid";
 import TodoList from "../TodoList";
 import "./todo.css";
+import Search from "../Search";
 
 const Todo = () => {
   const [text, setText] = useState("");
   const [todos, setTodos] = useState([]);
   const [edit, setEdit] = useState(null);
+  const [search, setSearch] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -64,10 +66,11 @@ const Todo = () => {
           onChange={(e) => setText(e.target.value)}
         />
         <button disabled={!text} className={edit ? "edit-btn " : "todo-btn"} type="submit">
-          {edit ? "Güncelle": "Ekle"}
+          {edit ? "Güncelle" : "Ekle"}
         </button>
       </form>
-      <TodoList todos={todos} removeTodo={removeTodo} editTodo={editTodo} />
+      <Search search={search} setSearch={setSearch} />
+      <TodoList todos={todos} removeTodo={removeTodo} editTodo={editTodo} search={search} />
     </div>
   );
 };

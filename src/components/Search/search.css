@@ -1,0 +1,19 @@
+ .todo-search {
+     position: absolute;
+     top: 43%;
+     left: 55%;
+     height: 2.5rem;
+     width: 16rem;
+ }
+
+ .todo-search .todo-search-input {
+     width: 100%;
+     height: 100%;
+     padding: 1.25rem;
+     font-size: 1.5rem;
+     outline: none;
+     border: none;
+     border-radius: 3px;
+ }
+
+

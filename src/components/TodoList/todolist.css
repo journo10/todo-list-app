@@ -14,7 +14,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-top: 1rem;
     padding: 1rem;
     border-radius: 3px;
@@ -31,11 +31,11 @@
 }
 
 .todo-list .todo-item .todo-btn .fa-trash {
-    color:#dc3545;
+    color: #dc3545;
 }
 
 .todo-list .todo-item .todo-btn .fa-pen-to-square {
-    color:#e0a800;
+    color: #e0a800;
 }
 
 .todo-list .todo-text {
