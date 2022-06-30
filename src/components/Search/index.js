@@ -1,7 +1,7 @@
 import React from "react";
 import "./search.css";
 
-const Search = ({ search, setSearch, todos }) => {
+const Search = ({ search, setSearch }) => {
   return (
     <>
       <div className="todo-search">
